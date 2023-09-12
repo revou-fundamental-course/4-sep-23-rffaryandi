@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  /* gap: 20px; */
+}
+.header>h1 {
+  font: bold 50px Product Sans;
+  color: rgb(47, 45, 45);
+}
+.header>p {
+  font: 20px Product Sans;
+  color: rgb(47, 45, 45);
+}
+.sisi {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 50px 15px;
+  /* flex-direction: column; */
+}
+#rumus {
+  width: 500px;
+}
+#inputbox {
+  border: 2px rgb(47, 45, 45) solid;
+  width: 40px;
+  margin: 4px;
+}
+#HasilKeliling {
+  border: 2px rgb(47, 45, 45) solid;
+  width: 95%;
+  height: 20px;
+  margin: 4px;
+  font: 14px Product Sans black;
+  text-align: center;
+}
+#HasilLuas {
+  border: 2px rgb(47, 45, 45) solid;
+  width: 95%;
+  height: 20px;
+  margin: 4px;
+  font: 14px Product Sans black;
+  text-align: center;
+}
+.inputnumber {
+  /* margin-top: 250px; */
+  text-align: center;
+  font: bold 13px Product Sans;
+  color: rgb(47, 45, 45);
+  max-width: 30%;
+}
+
+.hitung {
+  width: 95%;
+  font: 14px Product Sans;
+  margin-top: 10px;
+}
+
+#hitungluas {
+  height: 20px;
+  margin-top: 40px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematic Calculator - Square</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>KALKULATOR</h1>
+        <p>Luas dan Keliling Persegi</p>
+    </header>
+    <main>
+        <div class="sisi">
+            <img src="./Bahan/Cara-Menghitung-Luas-Persegi.jpg" alt="Rumus Persegi" id="rumus">
+
+            <div class="inputnumber">
+            <label for="number">Masukan Panjang Sisi</label>
+            <input type="number" name="number" id="inputbox">
+            <button class="hitung" onclick="Keliling()">Hitung Keliling</button>
+            <input type="number" name="Keliling" id="HasilKeliling" disabled>
+            <button class="hitung" onclick="Luas()" id="hitungluas">Hitung Luas</button>
+            <input type="number" name="Keliling" id="HasilLuas" disabled>
+
+        </div>
+    </div>
+    </main>
+</body>
+</html>
